@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="jbig.h" />
+    <ClInclude Include="jbig_table.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jbig.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="main.old.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
